@@ -10,4 +10,4 @@ The `Node` class defines a single node in the linked list. Each node contains a 
 The `LinkedList` class represents the linked list itself. It has a head node, which points to the first node in the list.
 
 ## Methods
-`insert_beginning(new_value)`: Inserts a new node with the given value at the beginning of the list.
+*`insert_beginning(new_value)`: Inserts a new node with the given value at the beginning of the list.
