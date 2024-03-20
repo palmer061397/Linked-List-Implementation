@@ -11,3 +11,18 @@ The `LinkedList` class represents the linked list itself. It has a head node, wh
 
 ## Methods
 * `insert_beginning(new_value)`: Inserts a new node with the given value at the beginning of the list.
+* `stringify_list()`: Converts the linked list into a string representation.
+
+## Usage
+1. Create a new instance of the `LinkedList` class.
+2. Use the `insert_beginning` method to add elements to the beginning of the list.
+3. Use the `stringify_list` method to print the elements of the list.
+
+## Example
+```python
+ll = LinkedList(5)
+ll.insert_beginning(70)
+ll.insert_beginning(5675)
+ll.insert_beginning(90)
+print(ll.stringify_list())
+```
