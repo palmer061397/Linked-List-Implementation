@@ -25,6 +25,7 @@ The `LinkedList` class represents the linked list itself. It has a head node, wh
 3. Use the `stringify_list` method to print the elements of the list.
 
 ## Example
+* code
 ```python
 ll = LinkedList(5)
 ll.insert_beginning(70)
@@ -32,13 +33,7 @@ ll.insert_beginning(5675)
 ll.insert_beginning(90)
 print(ll.stringify_list())
 ```
-## LinkedList Class
-The `LinkedList` class represents the linked list itself. It has a head node, which points to the first node in the list.
-```python
-class LinkedList:
-    def __init__(self, value=None):
-        self.head_node = Node(value)
-```
+* output
 ```yaml
 90
 5675
